@@ -1,5 +1,5 @@
 const Conversation = () => {
-  return <div>Empty state</div>;
+  return <div className="h-screen bg-gray-200">Empty state!</div>;
 };
 
-export default Conversation
+export default Conversation;
