@@ -8,7 +8,7 @@ export async function POST(request: Request) {
     const body = await request.json();
     const { phoneNumber, action } = body;
     if (!currentUserPrisma?.id) {
-      return new NextResponse("Unquthorized", {
+      return new NextResponse("Unauthorized", {
         status: 401,
       });
     }
